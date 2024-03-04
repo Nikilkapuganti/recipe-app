@@ -1,9 +1,40 @@
-Run in local 
+# Awesome Application
 
+Welcome to the Awesome Application! This guide will help you set up and run the application on your local machine.
 
-Clone the source code
-Install dependencies by using npm install
-To run server npm run dev
+## Prerequisites
+
+Before you begin, make sure you have the following installed on your machine:
+
+- Node.js (https://nodejs.org/)
+- npm (Node Package Manager)
+- mongodb
+
+## Getting Started
+
+Follow these steps to run the application locally:
+
+1. **Clone the Source Code:**
+   `
+   git clone https://github.com/Nikilkapuganti/recipe-app.git
+
+2. **Navigate to the Project Directory:**
+   `
+   cd awesome-application
+
+3. **Install Dependencies:**
+   `
+    npm install
+
+4 **Set Up Environment Variables::**
+   `
+PORT=3010
+CORS_DOMAIN = http://localhost:3000
+DATABASE_URL = mongodb://localhost:27017/
+
+4 **Run the Application:::**
+npm run dev
+   
 
 
 
